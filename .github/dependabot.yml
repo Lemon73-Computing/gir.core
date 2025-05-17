@@ -6,7 +6,7 @@ updates:
       interval: "daily"
   - package-ecosystem: "nuget"
     directories:
-      - "/src/Extensions/Integration"
+      - "/src/Extensions/GObject-2.0.Integration"
         # This traces below the dependencies through the dependency chain:
         # Generator3, GirModel, GirLoader
       - "/src/Generation/GirTool"
