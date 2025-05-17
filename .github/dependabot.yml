@@ -5,7 +5,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "nuget"
-    directory:
+    directories:
       - "/src/Extensions/Integration"
         # This traces below the dependencies through the dependency chain:
         # Generator3, GirModel, GirLoader
